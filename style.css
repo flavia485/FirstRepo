@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 77, 22, 0.65), rgba(9, 0, 77, 0.65)), url(images/pancakes-2139844_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.logo{
+    width: 180px;
+    cursor: pointer;
+}
+nav ul{
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    padding: 10px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    background: rgba(188, 76, 188, 0.933);
+    width: 200px;
+    text-align: center;
+}
+.button{
+        display: flex;
+        /* align-items: center; */
+        padding: 10px 20px;
+        border: 0;
+        outline: 0;
+        border-radius: 5px;
+        background: rgba(188, 76, 188, 0.933);
+        color: #fff;
+        font-weight: 500;
+        cursor: pointer;
+        width: 200px;
+        text-align: center;
+
+}
+.content{
+    margin-top: 14px;
+    color: #b1e9c8;
+    max-width: 620px;
+}
+.content h1{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
+.content form{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.content form input{
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.content form .button{
+    font-size: 15px;
+    padding: 10px 30px
+}
+
+/* ... your existing CSS ... */
+
+/* ... your existing CSS ... */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-column {
+    flex-basis: calc(33.33% - 40px);
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.footer h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    flex-wrap: wrap;
+}
+
+address p, .social-icon, .newsletter-input {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icon {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.newsletter-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.newsletter-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    margin-bottom: 10px;
+}
+
+.newsletter-button {
+    border-radius: 0 5px 5px 0;
+    padding: 8px 20px;
+    background-color: #555;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
